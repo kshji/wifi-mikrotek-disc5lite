@@ -16,6 +16,7 @@ I know that there has used 60 km point to point bridge over year, average speed 
  * [Firmware](https://mikrotik.com/product/disc_lite5_ac#fndtn-downloads) - look whick packet you need
    * current packages (=read firmware) for Disc Lite5 ac: *routeros-7.13.2-arm.npk* and wireless driver *wireless-7.13.2-arm.npk*
  * [Winbox](https://mikrotik.com/download) - nice client to use RouteOS products
+   * use macaddress or ip-address
  * [Netinstall](https://mikrotik.com/download) - bootp software, low level restore
    * [Netinstall doc](https://help.mikrotik.com/docs/display/ROS/Netinstall)
 
