@@ -124,7 +124,7 @@ Interfaces => wlan1 => tab: Wireless
   AP: EX1AP
   CPE: EX1CPE
 * Wireless Protocol: nv2
-  ** NV2 tab setup security and Pre-shared password 
+  * NV2 tab setup security and Pre-shared password 
 * Country: select your country
 
 ## Testing
