@@ -146,7 +146,7 @@ Wireless => Wireleas
   * 192.168.33.20 (=PC over wifi bridge)
 
 ## Config export - import
-Use Winbox Terminal
+Use Winbox => Terminal
 
 Save config to the Disc flashdisk
 ```
