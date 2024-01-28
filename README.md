@@ -137,7 +137,7 @@ Wireless => Wireleas
 
 * select wlan1 line
 * mouse second button select mode which give more information
-* 1st col status is S and after it's connected to the other unit, status is RS
+* 1st col status is S and after it has connected to the other unit, status is RS
 * tab Registration you will see your radioname EX1...
 * Tools => Ping
   * 192.168.33.211  (=your own)
