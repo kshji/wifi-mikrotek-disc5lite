@@ -172,7 +172,6 @@ Some examples, default is crypted.
 /system backup save name=backup.2.backup 
 
 /system backup save dont-encrypt=yes name="Backup_$Identity"
-/system backup save dont-encrypt=yes name="Backup_"
 
 /system backup save dont-encrypt=yes name="EX1AP_backup_20230121"
 
