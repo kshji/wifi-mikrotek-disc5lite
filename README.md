@@ -123,3 +123,73 @@ Interfaces => wlan1 => tab: Wireless
   ** NV2 tab setup security and Pre-shared password 
 * Country: select your country
 
+## Testing
+* put Discs on
+* wait some minutes
+* open Winbox
+
+### Winbox using 
+Wireless => Wireleas
+
+* select wlan1 line
+* mouse second button select mode which give more information
+* 1st col status is S and after it's connected to the other unit, status is RS
+* tab Registration you will see your radioname EX1...
+* Tools => Ping
+  * 192.168.33.211  (=your own)
+  * 192.168.33.19 (=your host)
+  * 192.168.33.211 (=CPE)
+  * 192.168.33.20 (=PC over wifi bridge)
+
+## Config export - import
+Use Winbox Terminal
+
+Save config to the Disc flashdisk
+```
+/export hide-sensitive file=EX1AP.nv2.config_20230121
+```
+
+Restore config from the Disc flashdisk
+```
+/import file=EX1AP.nv2.config_20230121.rsc
+```
+
+Winbox => Files
+* you'll see your files
+* you can drag&drop those to your PC
+
+
+## Backup - Restore
+
+
+Some examples, default is crypted.
+```
+/system backup save name=backup.1.backup password=somemypwd
+/system backup save name=backup.2.backup 
+
+/system backup save dont-encrypt=yes name="Backup_$Identity"
+/system backup save dont-encrypt=yes name="Backup_"
+
+/system backup save dont-encrypt=yes name="EX1AP_backup_20230121"
+
+```
+Restore
+```
+/system backup load name="backup.1.backup"
+# if include password, restore will ask it
+```
+
+## Speedtest
+Winbox include speedtest, look Tools
+* server
+* client
+
+I used OpenSpeedtest Server, it's real TCP/IP test.
+
+[Speed-Test](https://github.com/openspeedtest/Speed-Test)
+
+Server: install using Microsoft Store (OpenSpeedTest-Server)
+* start it, it will so the test link
+
+Client, use browser and give the previous link
+
