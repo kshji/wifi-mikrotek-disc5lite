@@ -47,7 +47,7 @@ Gateway 192.168.33.1
  __| Mikrotek Disc 5 Lite ac - CPE/Station - 192.168.33.212  name: EX1CPE
  |  
  |  
- |__ host 192.168.33.19  
+ |-- host 192.168.33.19  
  |  
 
 ## Documentation
