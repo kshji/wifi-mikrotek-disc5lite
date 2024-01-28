@@ -3,7 +3,11 @@ Miktotek DISC Lite5 AC Wifi 5 Mhz bridge longdistance.
 
 Wifi 5 Mhz [Mikrotik Disc Lite5 ac](https://help.mikrotik.com/docs/display/UM/Disc+Lite5+ac)
  * ARM 32-bit
- * Qualcomm ...
+ * PoE
+ * Wireless 5 GHz chip model Qualcomm IPQ-4018 
+ * Antenna gain 21 dBi for 5 GHz
+
+[Mikrotik Disc Lite5 ac - Specifications](https://mikrotik.com/product/disc_lite5_ac)
 
 [Buy](https://mikrotik.com/buy), [example](https://www.mikrotik-store.eu/en/index?language=en) from Germany.
 
