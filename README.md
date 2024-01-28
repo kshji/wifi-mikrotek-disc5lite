@@ -24,7 +24,7 @@ Very sort test, tested on the lake ice at around -1°C in cloudy weather. Not do
 
 ## Download
 
- * [Firmware](https://mikrotik.com/product/disc_lite5_ac#fndtn-downloads) - look whick packet you need
+ * [Firmware/Packages](https://mikrotik.com/product/disc_lite5_ac#fndtn-downloads) - look whick packages you need
    * current packages (=read firmware) for Disc Lite5 ac: *routeros-7.13.2-arm.npk* and wireless driver *wireless-7.13.2-arm.npk*
  * [Winbox](https://mikrotik.com/download) - nice client to use RouteOS products
    * use macaddress or ip-address
