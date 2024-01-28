@@ -41,7 +41,7 @@ Gateway 192.168.33.1
  |__ Mikrotek Disc 5 Lite ac - AP - 192.168.33.211  name: EX1AP
 &nbsp;&nbsp;&nbsp; |  
 &nbsp;&nbsp;&nbsp; |  
-&nbsp;&nbsp;&nbsp; | Wifi bridge  SSID EX1
+&nbsp;&nbsp;&nbsp; | Wifi bridge  SSID EX1  
 &nbsp;&nbsp;&nbsp; |  
 &nbsp;&nbsp;&nbsp; |   
  &nbsp;__| Mikrotek Disc 5 Lite ac - CPE/Station - 192.168.33.212  name: EX1CPE
