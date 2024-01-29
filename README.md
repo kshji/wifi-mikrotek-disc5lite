@@ -78,7 +78,7 @@ System => Packages
 After reboot check System => Packages, you'll see that there are two packages installed
 
 ## Setup Identity
-Terminal or System => Identity
+Winbox => Terminal or System => Identity
 ```
 # AP - set
 /system identity set name=EX1AP
@@ -96,7 +96,7 @@ Winbox => Clock
 ## Enable wlan1
 Default is: off
 
-Wireless => Wireless => Wifi Interfaces => enable line wlan1 
+Winbox => Wireless => Wireless => Wifi Interfaces => enable line wlan1 
  Or using Terminal
 ```
 /interface set wlan1 disabled=no
@@ -104,18 +104,18 @@ Wireless => Wireless => Wifi Interfaces => enable line wlan1
 
 
 ## Setup Bridge
-Bridge => 
+Winbox => Bridge => 
  * + (add) - bridge1
  * Ports add wlan1 and ether1
 
 ## Setup IP
-IP => Address list => + (new)
+Winbox => IP => Address list => + (new)
 * AP 192.168.33.211, network 255.255.255.0, Interface: **bridge1**
 * CPE 192.168.33.212, network 255.255.255.0, Interface: **bridge1**
 
 ## Setup Wireless
 
-Interfaces => wlan1 => tab: Wireless
+Winbox => Interfaces => wlan1 => tab: Wireless
 
 * change Advanced Mode
 * AP = Mode: bridge
@@ -140,7 +140,7 @@ Interfaces => wlan1 => tab: Wireless
 * open Winbox
 
 ### Winbox using 
-Wireless => Wireleas
+Winbox => Wireless => Wireless
 
 * select wlan1 line
 * mouse second button select mode which give more information
@@ -171,7 +171,7 @@ Winbox => Files
 
 
 ## Backup - Restore
-
+Winbox => Terminal
 
 Some examples, default is crypted.
 ```
