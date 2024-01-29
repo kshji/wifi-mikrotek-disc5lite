@@ -1,7 +1,7 @@
 # wifi-mikrotek-disc5lite
-Miktotek DISC Lite5 AC Wifi 5 Mhz bridge longdistance.
+Miktotek DISC Lite5 AC Wifi 5 Ghz bridge longdistance.
 
-Wifi 5 Mhz [Mikrotik Disc Lite5 ac](https://help.mikrotik.com/docs/display/UM/Disc+Lite5+ac)
+Wifi 5 Ghz [Mikrotik Disc Lite5 ac](https://help.mikrotik.com/docs/display/UM/Disc+Lite5+ac)
  * ARM 32-bit
  * PoE
  * Wireless 5 GHz chip model Qualcomm IPQ-4018 
@@ -86,6 +86,12 @@ Terminal or System => Identity
 /system identity set name=EX1CPE
 /system identity set name=EX1AP
 ```
+## Setup Clock
+Log is easier to read if setup clock.
+
+Winbox => Clock
+* timezone
+* ntp server
 
 ## Enable wlan1
 Default is: off
@@ -115,7 +121,7 @@ Interfaces => wlan1 => tab: Wireless
 * AP = Mode: bridge
 * CPE = Mode: station bridge
 * Band 
-  * AP: 5GHz.A/N/AC
+  * AP: 5 GHz A/N/AC
   * CPE: 5Hz-only-AC = work in shorter distance (in my test under 1.5 km)
     * CPE try more fixed band and channel width, AP has more dynamic setup (=listen)
 * Channel width: 20/40/80Mhz eeeC worked in my test, longer distance width have to be 10/20 ?
