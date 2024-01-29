@@ -112,11 +112,12 @@ IP => Address list => + (new)
 Interfaces => wlan1 => tab: Wireless
 
 * change Advanced Mode
-* Mode: bridge
+* AP = Mode: bridge
+* CPE = Mode: station bridge
 * Band 
   * AP: 5GHz.A/N/AC
-  * CPE: 5Hz-only-AC = work in short distance (in my test under 1.5 km)
-    * CPE try band and channel width, AP has more dynamic setup (=listen)
+  * CPE: 5Hz-only-AC = work in shorter distance (in my test under 1.5 km)
+    * CPE try more fixed band and channel width, AP has more dynamic setup (=listen)
 * Channel width: 20/40/80Mhz eeeC worked in my test, longer distance width have to be 10/20 ?
 * Frequency: ex. 5580 
 * SSID: EX1
@@ -160,7 +161,7 @@ Restore config from the Disc flashdisk
 
 Winbox => Files
 * you'll see your files
-* you can drag&drop those to your PC
+* you can drag&drop those files to your PC
 
 
 ## Backup - Restore
