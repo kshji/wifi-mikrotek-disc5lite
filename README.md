@@ -153,7 +153,7 @@ Winbox => Interfaces => wlan1 => tab: Wireless
 
 * change Advanced Mode
 * AP = Mode: bridge
-* CPE = Mode: station bridge
+* CPE (Station) = Mode: station bridge
 * Band 
   * AP: 5 GHz A/N/AC
   * CPE: 5Hz-only-AC = work in shorter distance (in my test under 1.5 km)
@@ -177,7 +177,7 @@ Winbox => Interfaces => wlan1 => tab: Wireless
 Winbox => Wireless => Wireless
 
 * select wlan1 line
-* mouse second button select mode which give more information
+* mouse second button select mode which give more information (Detail Mode)
 * 1st col status is S and after it has connected to the other unit, status is RS
 * tab Registration you will see your radioname EX1...
 * Tools => Ping
