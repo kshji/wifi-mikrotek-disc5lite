@@ -14,7 +14,7 @@ Wifi 5 Ghz [Mikrotik Disc Lite5 ac](https://help.mikrotik.com/docs/display/UM/Di
 I know that there has used 60 km point to point bridge over year, average speed 45 Mbps. Weather - no problem.
 
 ## Test result
-Used bridge confuguration (AP + CPE).  
+Used bridge configuration (AP + CPE).  
 Used nv2 protocol, better than 802.11. 
 Nv2 need pre-shared password. NV2 setup include cell radius setup, example 30 km.
 Very sort test, tested on the lake ice at around -1°C in cloudy weather. 
@@ -236,4 +236,13 @@ Server: install using Microsoft Store (OpenSpeedTest-Server)
 * start it, it will show the test link
 
 Client, use browser and give the previous link
+
+
+## Which product 
+ * [Selection guide for PtP links](https://mikrotik.com/products/ptp)
+ * [Calculator on the maps](https://mikrotik.com/calculator)
+ 
+ * DISC Lite5 ac - max 116 km - max 11 km 54 Mbps
+ * DynaDish 5 - max 180 km (6Mbps) - max 73 km 54 Mbps
+ * LHF XL 5 ac - max 180 km (6Mbps) - max 73 km 54 Mbps
 
