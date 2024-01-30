@@ -225,8 +225,8 @@ Restore
 
 ## Speedtest
 Winbox include speedtest, look Tools
-* server
-* client
+* server BTest Server
+* client Bandwidth Test
 
 I used OpenSpeedtest Server, it's real TCP/IP test.
 
