@@ -1,4 +1,4 @@
-# wifi-mikrotek-disc5lite
+# wifi-mikrotek-disc lite5 ac
 Miktotek DISC Lite5 AC Wifi 5 Ghz bridge longdistance.
 
 Wifi 5 Ghz [Mikrotik Disc Lite5 ac](https://help.mikrotik.com/docs/display/UM/Disc+Lite5+ac)
