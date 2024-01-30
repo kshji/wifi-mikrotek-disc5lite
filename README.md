@@ -179,11 +179,11 @@ Winbox => Wireless => Wireless
 * select wlan1 line
 * mouse second button select mode which give more information (Detail Mode)
 * 1st col status is S and after it has connected to the other unit, status is RS
-* tab Registration you will see your radioname EX1...
+* tab Registration you will see your radioname EX1... and Tx + Rx speed
 * Tools => Ping
   * 192.168.33.211  (=your own)
   * 192.168.33.19 (=your host)
-  * 192.168.33.211 (=CPE)
+  * 192.168.33.212 (=CPE)
   * 192.168.33.20 (=PC over wifi bridge)
 
 ## Config export - import
