@@ -238,7 +238,7 @@ Server: install using Microsoft Store (OpenSpeedTest-Server)
 Client, use browser and give the previous link
 
 
-## Which product 
+## Which Mikrotik product 
  * [Selection guide for PtP links](https://mikrotik.com/products/ptp)
  * [Calculator on the maps](https://mikrotik.com/calculator)
  
@@ -246,3 +246,6 @@ Client, use browser and give the previous link
  * DynaDish 5 - max 180 km (6Mbps) - max 73 km 54 Mbps
  * LHF XL 5 ac - max 180 km (6Mbps) - max 73 km 54 Mbps
 
+### Info
+ * [Fresnel Zone](https://en.wikipedia.org/wiki/Fresnel_zone)
+ * [Fresnel Zone Radius Calculator](https://www.rfwireless-world.com/calculators/Fresnel-zone-radius-calculator.html)
