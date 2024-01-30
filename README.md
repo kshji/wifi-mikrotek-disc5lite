@@ -15,7 +15,8 @@ I know that there has used 60 km point to point bridge over year, average speed 
 
 ## Test result
 Used bridge confuguration (CPE + AP).  Used nv2 protocol, better than 802.11. Nv2 need pre-shared password. NV2 setup include cell radius setup, example 30 km.
-Very sort test, tested on the lake ice at around -1°C in cloudy weather. Not done any special setups.
+Very sort test, tested on the lake ice at around -1°C in cloudy weather. 
+Test done without any special adjustments/setups.
  * 130 meter - TCP/IP speed almost 400 Mbps, UDP over 400 Mbps, signal level 5
  * 300 m - TCP/IP speed 110-150 Mbps, signal level 4-5
  * 600 m - TCP/IP speed 130-150 Mbps
