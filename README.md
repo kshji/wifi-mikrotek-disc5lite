@@ -63,13 +63,13 @@ Gateway 192.168.33.1
 ## Configuration
 I used Winbox, GUI and also Terminal mode.
  * start Winbox
- * boot Disc
+ * boot Disc Lite5
  * wait - some minutes
- * you will see disc mac address on the list, select it clicking mac address
+ * Winbox: you will see disc mac address on the list, select it clicking mac address
  * connect using user **admin** without password
- * after 1st boot ask new password, old is empty
+ * after 1st boot, system ask new password, old is empty
 
-I reset configuration, not used defaults. Use Terminal:
+I reset configuration, not used defaults. Easy reset: use Winbox Terminal:
 ```
 /system reset-configuration no-defaults=yes skip-backup=yes
 
@@ -169,7 +169,7 @@ Winbox => Interfaces => wlan1 => tab: Wireless
 * Country: select your country
 
 ## Testing
-* put Discs on
+* startup the both Disc Lite5 
 * wait some minutes
 * open Winbox
 
