@@ -86,13 +86,6 @@ Winbox => Terminal or System => Identity
 /system identity set name=EX1CPE
 /system identity set name=EX1AP
 ```
-## Setup Clock
-Log is easier to read if setup clock.
-
-Winbox => Clock
-* timezone
-* ntp server
-
 ## Enable wlan1
 Default is: off
 
@@ -112,6 +105,37 @@ Winbox => Bridge =>
 Winbox => IP => Address list => + (new)
 * AP 192.168.33.211, network 255.255.255.0, Interface: **bridge1**
 * CPE 192.168.33.212, network 255.255.255.0, Interface: **bridge1**
+
+Default route (gateway)
+Winbox => IP => Routing
+* add Dst.Addr. 0.0.0.0 Gateway 192.168.33.1
+
+```
+/ip address add address=192.168.33.211/24 interface=bridge1 network=192.168.33.0
+/ip route add disabled=no dst-address=0.0.0.0/0 gateway=192.168.33.1 routing-table=main suppress-hw-offload=no
+```
+
+
+## Setup DNS
+Winbox => IP => DNS 
+Servers: ex. 8.8.8.8
+```
+/ip dns set allow-remote-requests=yes servers=8.8.8.8
+```
+
+## Setup Clock
+Log is easier to read if setup clock.
+
+Winbox => System => Clock
+* timezone
+* ntp server
+
+```
+/system clock set time-zone-name=Europe/Helsinki
+/system ntp client set enabled=yes
+/system ntp client servers add address=fi.pool.ntp.org
+```
+
 
 ## Setup Wireless
 
