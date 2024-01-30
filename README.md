@@ -53,7 +53,7 @@ Gateway 192.168.33.1
  |-- host 192.168.33.20  
  |  
 
- * DHCP is usable over wifi bridge
+ * DHCP is available over the wireless bridge
 
 ## Documentation
  * [RouterOS](https://help.mikrotik.com/docs/display/ROS/RouterOS)
