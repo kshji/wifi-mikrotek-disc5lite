@@ -189,12 +189,12 @@ Winbox => Wireless => Wireless
 ## Config export - import
 Use Winbox => Terminal
 
-Save config to the Disc flashdisk
+Save config to the Disc Lite5 flashdisk
 ```
 /export hide-sensitive file=EX1AP.nv2.config_20230121
 ```
 
-Restore config from the Disc flashdisk
+Restore config from the Disc Lite 5 flashdisk
 ```
 /import file=EX1AP.nv2.config_20230121.rsc
 ```
@@ -233,7 +233,7 @@ I used OpenSpeedtest Server, it's real TCP/IP test.
 [Speed-Test](https://github.com/openspeedtest/Speed-Test)
 
 Server: install using Microsoft Store (OpenSpeedTest-Server)
-* start it, it will so the test link
+* start it, it will show the test link
 
 Client, use browser and give the previous link
 
