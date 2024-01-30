@@ -36,7 +36,7 @@ Very sort test, tested on the lake ice at around -1°C in cloudy weather. Not do
 Gateway 192.168.33.1  
  |  
  |  
- |-- host 192.168.33.20  
+ |-- host 192.168.33.19  
  |  
  |__ Mikrotek Disc 5 Lite ac - AP - 192.168.33.211  name: EX1AP
 &nbsp;&nbsp;&nbsp; |  
@@ -47,8 +47,10 @@ Gateway 192.168.33.1
  &nbsp;__| Mikrotek Disc 5 Lite ac - CPE/Station - 192.168.33.212  name: EX1CPE
  |  
  |  
- |-- host 192.168.33.19  
+ |-- host 192.168.33.20  
  |  
+
+ * DHCP is usable over wifi bridge
 
 ## Documentation
  * [RouterOS](https://help.mikrotik.com/docs/display/ROS/RouterOS)
@@ -84,7 +86,6 @@ Winbox => Terminal or System => Identity
 /system identity set name=EX1AP
 # CPE / Station - set
 /system identity set name=EX1CPE
-/system identity set name=EX1AP
 ```
 ## Enable wlan1
 Default is: off
@@ -100,6 +101,13 @@ Winbox => Wireless => Wireless => Wifi Interfaces => enable line wlan1
 Winbox => Bridge => 
  * + (add) - bridge1
  * Ports add wlan1 and ether1
+
+```
+/interface bridge port 
+add bridge=bridge1 interface=wlan1 
+add bridge=bridge1 interface=ether1
+```
+
 
 ## Setup IP
 Winbox => IP => Address list => + (new)
@@ -123,7 +131,7 @@ Servers: ex. 8.8.8.8
 /ip dns set allow-remote-requests=yes servers=8.8.8.8
 ```
 
-## Setup Clock
+## Setup Clock - NTP Client
 Log is easier to read if setup clock.
 
 Winbox => System => Clock
@@ -135,7 +143,6 @@ Winbox => System => Clock
 /system ntp client set enabled=yes
 /system ntp client servers add address=fi.pool.ntp.org
 ```
-
 
 ## Setup Wireless
 
