@@ -249,3 +249,8 @@ Client, use browser and give the previous link
 ### Info
  * [Fresnel Zone](https://en.wikipedia.org/wiki/Fresnel_zone)
  * [Fresnel Zone Radius Calculator](https://www.rfwireless-world.com/calculators/Fresnel-zone-radius-calculator.html)
+
+#### Suomeksi
+ * [Radiolinkin suorituskyvyn mittaus](https://www.theseus.fi/bitstream/handle/10024/48488/Puurunen_Jari.pdf;jsessionid=C81E6C6DFB1E78AAE62EB2100BA255E7?sequence=1)
+ * [Radioverkot ja testaus](https://www.theseus.fi/bitstream/handle/10024/87148/Radioverkot%20ja%20testaus_PasiL.pdf?sequence=1&isAllowed=y)
+ * [Radiosignaalin häviöiden arviominen](https://trepo.tuni.fi/bitstream/handle/10024/123325/IlmonenTommi.pdf)
