@@ -14,7 +14,9 @@ Wifi 5 Ghz [Mikrotik Disc Lite5 ac](https://help.mikrotik.com/docs/display/UM/Di
 I know that there has used 60 km point to point bridge over year, average speed 45 Mbps. Weather - no problem.
 
 ## Test result
-Used bridge confuguration (CPE + AP).  Used nv2 protocol, better than 802.11. Nv2 need pre-shared password. NV2 setup include cell radius setup, example 30 km.
+Used bridge confuguration (AP + CPE).  
+Used nv2 protocol, better than 802.11. 
+Nv2 need pre-shared password. NV2 setup include cell radius setup, example 30 km.
 Very sort test, tested on the lake ice at around -1°C in cloudy weather. 
 Test done without any special adjustments/setups.
  * 130 meter - TCP/IP speed almost 400 Mbps, UDP over 400 Mbps, signal level 5
